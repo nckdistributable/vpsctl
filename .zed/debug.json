@@ -1,0 +1,23 @@
+// Project-local debug tasks
+//
+// For more documentation on how to configure debug tasks,
+// see: https://zed.dev/docs/debugger
+[
+  {
+    "build": {
+      "command": "cargo",
+      "args": ["build"]
+    },
+    "args": ["init"],
+    "adapter": "CodeLLDB",
+    "label": "vpsctl (CodeLLDB)",
+    "request": "launch",
+    "name": "vpsctl (CodeLLDB)",
+    "program": "./target/debug/vpsctl",
+    "env": {
+      "PROFILE": "dev"
+    },
+    "stopOnEntry": false,
+    "cwd": "/Users/nikolajzakharov/vpsctl"
+  }
+]
