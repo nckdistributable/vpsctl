@@ -1,0 +1,7 @@
+[vps]
+name = "name"
+ip = "127.0.0.1"
+
+[vps]
+name = "name2"
+ip = "127.0.0.2"
